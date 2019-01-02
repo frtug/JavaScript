@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    padding:5px;
+}
+.box{
+    min-width: 300px;
+    min
+    position: relative;
+    top:30px;
+    padding: 30px;
+    text-align:center;   
+}
+.insert input{
+  width:40%;
+  height: 40px;
+  color:black;
+  font-size: 30px;
+}
+.sub button{
+    width:100px;
+    height:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: brown;
+    cursor: pointer;
+}
+ul.show{
+    text-align: center;
+} 
+li{
+    padding:10px;
+    color:black;
+    background:grey;
+    margin:10px;
+}

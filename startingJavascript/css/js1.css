@@ -1,0 +1,24 @@
+body{
+  background: rgb(75, 155, 118);
+  color:rgb(2, 4, 5);
+  min-width: 100px;
+  text-align: center;
+  border:2px solid black;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 3px 3px white;
+}
+input{
+  width:50%;
+  height:40px;
+  border:2px solid black;
+  border-radius: 5px;
+}
+button{
+  width:50px;
+  height:50px;
+  left:1px;
+  top:50px;
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practice JavaScript</title>
+    <link rel="stylesheet" href="css/js1.css">
+  </head>
+  <body>
+    <h1>Hello JavaScript</h1>
+    <input type="text" placeholder="Enter your Name">
+    <button type="button" name="button">Click Me</button>
+    <h2></h2>
+
+
+
+    <!--JavaScript here in the simple name ba-->
+<script type="text/javascript">
+  function but(){
+    
+    var name = document.querySelector('input').value.trim() || "Abhishek";
+    document.querySelector('h2').textContent = "Hello ,"+ name + "!";
+    console.log('I am Abhishek');
+    document.getElementById('input').textContent = null;
+  }
+    document.querySelector('button').addEventListener('click',but);
+
+</script>
+  </body>
+</html>

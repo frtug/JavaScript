@@ -1,0 +1,51 @@
+body{
+  background:black;
+}
+.container{
+  font-family:cursive;
+  text-align: center;
+}
+.top{
+  margin-top:0px;
+  background:rgba(244,0,0,0.3);
+  color:white;
+  display: inline-block;
+  opacity: 0.5;
+}
+select{
+  width:20px;
+  background: black;
+  color:white;
+}
+.insert{
+  padding:10px;
+  position: relative;
+}
+input{
+  height: 30px;
+  width:30%;
+  background: black;
+  color:White;
+
+}
+input::-webkit-input-placeholder{
+  color:green;
+  font-size: 20px;
+
+}
+
+.row1{
+  padding: 0px;
+  background:blue;
+
+}
+.row2{
+  background: green;
+  padding: 0px;
+
+}
+.row3{
+  background: red;
+  padding: 0px;
+
+}

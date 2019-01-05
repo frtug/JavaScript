@@ -1,2 +1,2 @@
 # JavaScript
-Starting
+Starting Into JavaScript with the projects

@@ -1,0 +1,37 @@
+body{
+
+    text-align: center;
+    background: rgb(69, 139, 69);
+    display:block;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    background: blue;
+    padding:10px;
+}
+.all{
+    
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    background:black;
+}
+div{
+    padding: 10px;
+}
+label{
+    font-size:20px;
+}
+input::-webkit-input-placeholder{
+    color:green;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+input{
+    padding: 10px;
+}
+
+
+
+

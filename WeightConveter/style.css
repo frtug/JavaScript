@@ -2,8 +2,11 @@ body{
   background:black;
 }
 .container{
-  font-family:cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+}
+h1{
+  color:white;
 }
 .top{
   margin-top:0px;
@@ -13,7 +16,7 @@ body{
   opacity: 0.5;
 }
 select{
-  width:20px;
+  width:70px;
   background: black;
   color:white;
 }

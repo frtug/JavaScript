@@ -1,37 +1,24 @@
 function but(e){
-  var x = e.target.value;
-  console.log(typeof(x))
-
-  document.getElementById('select').addEventListener('option' ,function(){
-   if (document.getElementById('option').value = "LB"){
-    if (x >=0 && x <=Infinity){
-      document.getElementById('output').style.visibility = 'visible';
+  var x = parseInt(e.target.value);
+  console.log(typeof(x));
   
-  
-      //console.log(x)
-      document.getElementById('Gout').innerHTML = Math.round(x/0.0021);
-      document.getElementById('Kgout').innerHTML = Math.round(x/2.2);
-      document.getElementById('Ozout').innerHTML = x*16;
+    var sell = document.getElementById('ss');
+    var pp = sell.options[sell.selectedIndex].text;
+    console.log(pp);
+    document.getElementById('output').style.visibility = 'visible';
+    if (pp == "LB"){
+    //console.log(x)
+    document.getElementById('Gout'). innerHTML = x/0.0022;
+    document.getElementById('Kgout').innerHTML = x/2.2;
+    document.getElementById('Ozout').innerHTML = x*16;
     }
-    else{
-      document.getElementById('output').style.visibility = 'hidden';
-      window.alert("Enter the Number:");
-      document.getElementById('');
+
+    if (pp == "MG"){
+    document.getElementById('Gout').innerHTML = x/1000;
+    document.getElementById('Kgout').innerHTML = x/1000000;
+    document.getElementById('Ozout').innerHTML =  (x*18)/100;
     }
-   }
-else{
-  document.getElementById('output').style.visibility = 'visible';
-
-  document.getElementById('Gout').innerHTML = Math.round(x);
-  document.getElementById('Kgout').innerHTML = Math.round(x);
-  document.getElementById('Ozout').innerHTML = x;
-}
-
-  });
+  }
   
- 
-}
-
 document.getElementById('output').style.visibility = 'hidden';
-document.getElementById('in').addEventListener('input' ,but);
-
+document.getElementById('in').addEventListener('input',but);
